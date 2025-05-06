@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "1Vcwt6y/9+EMWSH6M0zhE0otyYEssKsLf5KVxwfeZAE=",
+  "Source": "gajaashwa-server",
+  "BasePath": "_content/gajaashwa-server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

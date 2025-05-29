@@ -95,7 +95,7 @@ export class HomeComponent implements OnInit , AfterViewInit {
         'Food delivery website software',
         'Other digital products and services',
       ],
-      redirectTo: '/'
+      redirectTo: '/products-and-services'
     },
     {
       image: 'laptop-3.jpg',
@@ -106,7 +106,7 @@ export class HomeComponent implements OnInit , AfterViewInit {
         'Can I customize the food delivery website software to suit my business needs?',
         'Do you provide ongoing support and maintenance for the websites and web applications you develop?',
       ],
-      redirectTo: '/'
+      redirectTo: '/faqs'
     },
     {
       image: 'group.jpg',
@@ -117,7 +117,7 @@ export class HomeComponent implements OnInit , AfterViewInit {
         'Web development and food delivery software solutions are well-received',
         'Testimonials available for verification',
       ],
-      redirectTo: '/'
+      redirectTo: '/testimonials'
     }
   ];
   constructor() {}

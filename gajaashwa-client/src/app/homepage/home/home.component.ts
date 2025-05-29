@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit , AfterViewInit {
     },
     {
       image: 'resturant.jpg',
-      title: 'Revolutionize your food Business with our innovative delivery software',
+      title: 'Revolutionize Your food Business with Our Innovative Delivery Software',
       description: 'The company has a food delivery software product that it offers to small businesses wishing to be in the food business without having a kitchen!',
       buttonText: 'About Us...',
       buttonLink: '/projects/restaurant'

@@ -20,6 +20,18 @@ const childrenRoutes: Routes = [
   {
     path: 'contact-us',
     loadComponent: () => import('./contact-us/contact-us.component').then(m => m.ContactUsComponent)
+  },
+  {
+    path: 'faqs',
+    loadComponent: () => import('./faqs/faqs.component').then(m => m.FaqsComponent)
+  },
+  {
+    path: 'testimonials',
+    loadComponent: () => import('./testimonials/testimonials.component').then(m => m.TestimonialsComponent)
+  },
+  {
+    path: 'products-and-services',
+    loadComponent: () => import('./products-and-services/products-and-services.component').then(m => m.ProductsAndServicesComponent)
   }
 ];
 const routes: Routes = [

@@ -32,6 +32,10 @@ const childrenRoutes: Routes = [
   {
     path: 'products-and-services',
     loadComponent: () => import('./products-and-services/products-and-services.component').then(m => m.ProductsAndServicesComponent)
+  },
+  {
+    path: '**',
+    loadComponent: () => import('./error404/page-under-construction.component').then(m => m.PageUnderConstructionComponent)
   }
 ];
 const routes: Routes = [
